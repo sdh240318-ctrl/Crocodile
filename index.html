@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>악어 이빨 게임</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>악어 이빨 게임🐊</h1>
+        <div class="game-row">
+            <div class="croc">
+                <div class="jaw" id="jaw">
+                    <div class="top">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="bottom"></div>
+                    <div class="teeth-row" id="teeth-row"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div class="info">
+                    <div>점수: <span id="score" class="score">0</span></div>
+                    <div class="hint">이름을 하나씩 눌러보세요. 물리면 게임 오버!</div>
+                </div>
+                    <div class="controls">
+                    <button id="restartBtn">다시 시작</button>
+                    <button class="ghost" id="easyBtn">쉬움</button>
+                    <button class="ghost" id="normalBtn">보통</button>
+                    <button class="ghost" id="hardBtn">어려움</button>
+                </div>
+                <div class="message" id="message">이빨을 눌러 시작하세요.</div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
